@@ -25,7 +25,39 @@
    - Go to pycharm-community-2024.2.2/bin folder
    - Run the following command
      - ./pycharm.sh
-6. Create new project 
+6. Create new project in PyCharm
+   - Open PyCharm
+      - Go to pycharm-community-2024.2.2/bin folder
+      - Run the following command
+        - ./pycharm.sh
+   - Click the button 'New Project'
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img1.jpeg"
+    width = "700"
+    height = "auto"
+  >
+</p>
+
+   - In the 'New Project' window, do the following steps:
+      - Provide name: For example 'AI_Labs'
+      - Provide location: For example '/home/username/Documents'
+      - Provide interpreter: Insert path of the Python 2.7 interpreter
+         - In order to get the interpreter path, open a terminal and write the following command
+            - which python2.7     
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img2.jpeg"
+    width = "700"
+    height = "auto"
+  >
+</p>
+
+   - Download search.zip by opening from https://s3-us-west-2.amazonaws.com/cs188websitecontent/projects/release/search/v1/001/search.zip
+   - Move search.zip file into PyCharm folder created above (AI_Labs for example)
+   - Unzip search.zip
+      - After unzipping, copy the content from 'search' folder directly into AI_Labs folder, and remove the search.zip file and search folder
 
 ## Tutorials
 
