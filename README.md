@@ -37,50 +37,52 @@
       - Run the following command
         - ./pycharm.sh
    - Click the button 'New Project'
+   - In the 'New Project' window, do the following steps:
+      - Provide name: For example 'AI_Labs'
+      - Provide location: For example '/home/username/Documents'
+      - Provide interpreter: Insert path of the Python 2.7 interpreter
+         - In order to get the interpreter path, open a terminal and write the following command
+            - which python2.7
+   - Download search.zip by opening from https://s3-us-west-2.amazonaws.com/cs188websitecontent/projects/release/search/v1/001/search.zip
+   - Move search.zip file into PyCharm folder created above (AI_Labs for example)
+   - Unzip search.zip
+      - After unzipping, copy the content from 'search' folder directly into AI_Labs folder, and remove the search.zip file and search folder
+   - Run file 'pacman.py' by right-clicking the file, and selecting 'Run pacman.py'
+   - Enjoy the game!
+
 <p align="center">
   <img 
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img1.jpeg"
     width = "500"
     height = "auto"
   >
-</p>
-
-   - In the 'New Project' window, do the following steps:
-      - Provide name: For example 'AI_Labs'
-      - Provide location: For example '/home/username/Documents'
-      - Provide interpreter: Insert path of the Python 2.7 interpreter
-         - In order to get the interpreter path, open a terminal and write the following command
-            - which python2.7     
-
+  <em>Img. 1 - Welcome to PyCharm</em>
+</p>  
 <p align="center">
   <img 
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img2.jpeg"
     width = "500"
     height = "auto"
   >
+  <em>Img. 2 - New Project Frame</em>
 </p>
-
-   - Download search.zip by opening from https://s3-us-west-2.amazonaws.com/cs188websitecontent/projects/release/search/v1/001/search.zip
-   - Move search.zip file into PyCharm folder created above (AI_Labs for example)
-   - Unzip search.zip
-      - After unzipping, copy the content from 'search' folder directly into AI_Labs folder, and remove the search.zip file and search folder
-   - Run file 'pacman.py' by right-clicking the file, and selecting 'Run pacman.py'
-    
+  
 <p align="center">
   <img 
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img3.jpeg"
     width = "250"
     height = "auto"
   >
+  <em>Img. 3 - Run pacman</em>
 </p>
 
-   - Enjoy the game!
 <p align="center">
   <img 
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img4.jpeg"
     width = "400"
     height = "auto"
   >
+  <em>Img. 4 - Pacman Game</em>
 </p>
 
 
