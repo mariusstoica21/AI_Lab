@@ -1,8 +1,10 @@
 # Artificial Intelligence Laboratory
 
-## Tutorials
+## 🔗 Useful videos
 - Ubuntu Installation using Oracle VirtualBox: https://www.youtube.com/watch?v=hYaCCpvjsEY&t=185s
-## Lab 1 - Install Ubuntu, PyCharm, Python 2.7 and Create New Project
+- Debugging in PyCharm: https://www.youtube.com/watch?v=sRGpvbhOhQs
+  
+## 📂 Lab 1 - Install Ubuntu, PyCharm, Python 2.7 and Create New Project
 
 1. Download and install Oracle VirtualBox and install Ubuntu 22.04 LTS, by watching the tutorial https://www.youtube.com/watch?v=hYaCCpvjsEY&t=185s
 2. Open Ubuntu VM
@@ -34,7 +36,7 @@
 <p align="center">
   <img 
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img1.jpeg"
-    width = "700"
+    width = "500"
     height = "auto"
   >
 </p>
@@ -49,7 +51,7 @@
 <p align="center">
   <img 
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img2.jpeg"
-    width = "700"
+    width = "500"
     height = "auto"
   >
 </p>
@@ -58,6 +60,25 @@
    - Move search.zip file into PyCharm folder created above (AI_Labs for example)
    - Unzip search.zip
       - After unzipping, copy the content from 'search' folder directly into AI_Labs folder, and remove the search.zip file and search folder
+   - Run file 'pacman.py' by right-clicking the file, and selecting 'Run pacman.py'
+    
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img3.jpeg"
+    width = "250"
+    height = "auto"
+  >
+</p>
+
+   - Enjoy the game!
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img4.jpeg"
+    width = "400"
+    height = "auto"
+  >
+</p>
+
 
 ## Tutorials
 
