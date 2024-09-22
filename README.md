@@ -1,4 +1,8 @@
-# Artificial Intelligence Laboratory
+<p align="left">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/header.png"
+  >
+</p>
 
 ## 🔗 Useful videos
 - Ubuntu Installation using Oracle VirtualBox: https://www.youtube.com/watch?v=hYaCCpvjsEY&t=185s
