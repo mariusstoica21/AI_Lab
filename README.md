@@ -122,10 +122,3 @@
   >
   <em>Img. 4 - Pacman Game</em>
 </p>
-
-
-## Tutorials
-
-
-
-## Links
