@@ -5,10 +5,48 @@
 </p>
 
 ## 🔗 Useful videos
-- Ubuntu Installation using Oracle VirtualBox: https://www.youtube.com/watch?v=hYaCCpvjsEY&t=185s
-- Debugging in PyCharm: https://www.youtube.com/watch?v=sRGpvbhOhQs
+
+### Lab 1 - Python Introduction
+
+- 🌐 Python Interview questions: https://www.geeksforgeeks.org/python-interview-questions/
+- ▶️ Write Beautiful Code in Python: https://www.youtube.com/watch?v=OSGv2VnC0go&t=802s
+- ▶️ Python OOP Tutorials: https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc
+
+### Lab 2 - Install Ubuntu, PyCharm, Python 2.7 and Create New Project
+- ▶️ Ubuntu Installation using Oracle VirtualBox: https://www.youtube.com/watch?v=hYaCCpvjsEY&t=185s
+- ▶️ Debugging in PyCharm: https://www.youtube.com/watch?v=sRGpvbhOhQs
+
+## 📂 Lab 1 - Python Introduction
+
+1. Python General Info
+2. Python benefits
+3. **Python - compiled or interpreted (Compilation process in C vs Python)**
+4. Comments in Python
+5. **Mutable and Immutable data types**
+6. Arguments passed by value or reference
+7. **Set vs Dictionary**
+8. **List Comprehension**
+9. **Lambda functions**
+10. Pass in Python
+11. **Exceptions in Python**
+12. Pass function as argument in Python
+13. *args and **kwargs in Python
+14. **Scope in Python**
+15. **Break, continue, pass in Python**
+16. **Built-in data types**
+17. xrange vs range
+18. **Dictionary comprehension**
+19. **Tuple comprehension**
+20. **List vs Tuple**
+21. **Shallow vs Deep copy**
+22. **Iterators**
+23. **Generators**
+24. Inheritance, Abstraction, Polymorphism, Encapsulation
+25. **Zip (Write Beautiful Code in Python)**
+26. **GIL (Global Interpreter Lock, Concurrency in Python)**
+27. **OOP: Classes and methods, Class variables, classmethods and staticmethods, Inheritance (Subclasses), Dunder methods, Decorators (getters and setters)**
   
-## 📂 Lab 1 - Install Ubuntu, PyCharm, Python 2.7 and Create New Project
+## 📂 Lab 2 - Install Ubuntu, PyCharm, Python 2.7 and Create New Project
 
 1. Download and install Oracle VirtualBox and install Ubuntu 22.04 LTS, by watching the tutorial https://www.youtube.com/watch?v=hYaCCpvjsEY&t=185s
 2. Open Ubuntu VM
