@@ -26,7 +26,7 @@
 6. **Mutable and Immutable data types**
 7. **Dictionary**
 8. Arguments passed by value or reference
-9. **List Comprehension**
+9. **List Comprehension (generate even numbers list, squares list)**
 10. **Lambda functions**
 11. Pass in Python
 12. **Exceptions in Python**
