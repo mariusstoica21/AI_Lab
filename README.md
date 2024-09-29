@@ -27,25 +27,23 @@
 7. **Dictionary**
 8. Arguments passed by value or reference
 9. **List Comprehension (generate even numbers list, squares list)**
-10. **Lambda functions**
-11. Pass in Python
-12. **Exceptions in Python**
-13. Pass function as argument in Python
-14. *args and **kwargs in Python
-15. **Scope in Python**
-16. **Break, continue, pass in Python**
-17. **Built-in data types**
-18. xrange vs range
-19. **Dictionary comprehension**
-20. **Tuple comprehension**
-21. **List vs Tuple**
+10. **Dictionary comprehension**
+11. **Lambda functions**
+12. Pass in Python
+13. **Exceptions in Python**
+14. Pass function as argument in Python
+15. **Args and Kwargs in Python**
+16. **Scope in Python**
+17. **Break, continue, pass in Python**
+18. **Built-in data types**
+19. xrange vs range
 22. **Shallow vs Deep copy**
 23. **Iterators**
 24. **Generators**
 25. Inheritance, Abstraction, Polymorphism, Encapsulation
 26. **Zip (Write Beautiful Code in Python)**
 27. **GIL (Global Interpreter Lock, Concurrency in Python)**
-28. **OOP: Classes and methods, Class variables, classmethods and staticmethods, Inheritance (Subclasses), Dunder methods, Decorators (getters and setters)**
+28. **OOP: Classes and methods, Class variables, Decorators(class methods, static methods, abstract methods, getters and setters) Inheritance (Subclasses), Dunder methods**
   
 ## 📂 Lab 2 - Install Ubuntu, PyCharm, Python 2.7 and Create New Project
 
