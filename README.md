@@ -4,7 +4,7 @@
   >
 </p>
 
-## 🔗 Useful videos
+## 🔗 Useful links
 
 ### Lab 1 - Python Introduction
 
@@ -121,3 +121,9 @@
   >
   <em>Img. 4 - Pacman Game</em>
 </p>
+
+### Icons
+
+<ul>
+  <li><a href="https://www.flaticon.com/free-icons/artificial-intelligence" title="artificial intelligence icons">Artificial intelligence icons created by rukanicon - Flaticon</a></li>
+</ul>
