@@ -21,30 +21,31 @@
 1. Python General Info
 2. Python benefits
 3. **Python - compiled or interpreted (Compilation process in C vs Python)**
-4. Comments in Python
-5. **Mutable and Immutable data types**
-6. Arguments passed by value or reference
-7. **Set vs Dictionary**
-8. **List Comprehension**
-9. **Lambda functions**
-10. Pass in Python
-11. **Exceptions in Python**
-12. Pass function as argument in Python
-13. *args and **kwargs in Python
-14. **Scope in Python**
-15. **Break, continue, pass in Python**
-16. **Built-in data types**
-17. xrange vs range
-18. **Dictionary comprehension**
-19. **Tuple comprehension**
-20. **List vs Tuple**
-21. **Shallow vs Deep copy**
-22. **Iterators**
-23. **Generators**
-24. Inheritance, Abstraction, Polymorphism, Encapsulation
-25. **Zip (Write Beautiful Code in Python)**
-26. **GIL (Global Interpreter Lock, Concurrency in Python)**
-27. **OOP: Classes and methods, Class variables, classmethods and staticmethods, Inheritance (Subclasses), Dunder methods, Decorators (getters and setters)**
+4. **Comments in Python**
+5. **List vs Tuple vs Set**
+6. **Mutable and Immutable data types**
+7. **Dictionary**
+8. Arguments passed by value or reference
+9. **List Comprehension**
+10. **Lambda functions**
+11. Pass in Python
+12. **Exceptions in Python**
+13. Pass function as argument in Python
+14. *args and **kwargs in Python
+15. **Scope in Python**
+16. **Break, continue, pass in Python**
+17. **Built-in data types**
+18. xrange vs range
+19. **Dictionary comprehension**
+20. **Tuple comprehension**
+21. **List vs Tuple**
+22. **Shallow vs Deep copy**
+23. **Iterators**
+24. **Generators**
+25. Inheritance, Abstraction, Polymorphism, Encapsulation
+26. **Zip (Write Beautiful Code in Python)**
+27. **GIL (Global Interpreter Lock, Concurrency in Python)**
+28. **OOP: Classes and methods, Class variables, classmethods and staticmethods, Inheritance (Subclasses), Dunder methods, Decorators (getters and setters)**
   
 ## 📂 Lab 2 - Install Ubuntu, PyCharm, Python 2.7 and Create New Project
 
