@@ -37,13 +37,13 @@
 17. **Break, continue, pass in Python**
 18. **Built-in data types**
 19. xrange vs range
-22. **Shallow vs Deep copy**
-23. **Iterators**
-24. **Generators**
-25. Inheritance, Abstraction, Polymorphism, Encapsulation
-26. **Zip (Write Beautiful Code in Python)**
-27. **GIL (Global Interpreter Lock, Concurrency in Python)**
-28. **OOP: Classes and methods, Class variables, Decorators(class methods, static methods, abstract methods, getters and setters) Inheritance (Subclasses), Dunder methods**
+20. **Shallow vs Deep copy**
+21. **Iterators**
+22. **Generators**
+23. Inheritance, Abstraction, Polymorphism, Encapsulation
+24. **Zip (Write Beautiful Code in Python)**
+25. **GIL (Global Interpreter Lock, Concurrency in Python)**
+26. **OOP: Classes and methods, Class variables, Decorators(class methods, static methods, abstract methods, getters and setters) Inheritance (Subclasses), Dunder methods**
   
 ## 📂 Lab 2 - Install Ubuntu, PyCharm, Python 2.7 and Create New Project
 
