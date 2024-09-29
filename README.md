@@ -1,6 +1,6 @@
 <p align="left">
   <img 
-    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/header.png"
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/header_1.png"
   >
 </p>
 
