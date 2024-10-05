@@ -49,17 +49,17 @@
 
 1. Download and install Oracle VirtualBox and install Ubuntu 22.04 LTS, by watching the tutorial https://www.youtube.com/watch?v=hYaCCpvjsEY&t=185s
 2. Open Ubuntu VM
-3. Install Python 2.7 in Ubuntu 22.04 VM
+3. Install Python 3.9 in Ubuntu 22.04 VM
    - Open Terminal (CTRL + ATL + T) 
    - Run the following commands in order to install Python 2.7
      - sudo apt update
      - sudo apt upgrade
-     - sudo apt install python2
-     - sudo apt install python2.7 python2.7-dev
+     - sudo add-apt-repository ppa:deadsnakes/ppa
+     - sudo apt install python3.9
    - Check version:
-     - python2 --version
+     - python3 --version
    - Search for folder (will be needed when configuring interpreter):
-     - which python2.7
+     - which python3.9
 5. Install PyCharm in Ubuntu 22.04 VM
    - Go to https://www.jetbrains.com/pycharm/download/?section=windows
    - Create folder PyCharm in Ubuntu 22.04 LTS
@@ -77,10 +77,10 @@
    - In the 'New Project' window, do the following steps:
       - Provide name: For example 'AI_Labs'
       - Provide location: For example '/home/username/Documents'
-      - Provide interpreter: Insert path of the Python 2.7 interpreter
+      - Provide interpreter: Insert path of the Python 3.9 interpreter
          - In order to get the interpreter path, open a terminal and write the following command
-            - which python2.7
-   - Download search.zip by opening from https://s3-us-west-2.amazonaws.com/cs188websitecontent/projects/release/search/v1/001/search.zip
+            - which python3.9
+   - Download search.zip by opening from https://inst.eecs.berkeley.edu/~cs188/fa24/projects/proj1/
    - Move search.zip file into PyCharm folder created above (AI_Labs for example)
    - Unzip search.zip
       - After unzipping, copy the content from 'search' folder directly into AI_Labs folder, and remove the search.zip file and search folder
