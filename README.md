@@ -85,6 +85,9 @@
    - Unzip search.zip
       - After unzipping, copy the content from 'search' folder directly into Pacman_Framework folder, and remove the search.zip file and search folder
    - Run file 'pacman.py' by right-clicking the file, and selecting 'Run pacman.py'
+   - **If the following error occurs 'ModuleNotFoundError: No module named tkinter':**
+     - Open the Terminal from the PyCharm IDE and run the following command 'sudo apt install python3.9-tk'
+   - Run again the file 'pacman.py' by right-clicking the file, and selecting 'Run pacman.py'
    - Enjoy the game!
 
 <p align="center">
