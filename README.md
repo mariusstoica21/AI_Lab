@@ -80,7 +80,7 @@
       - Provide interpreter: Insert path of the Python 3.9 interpreter
          - In order to get the interpreter path, open a terminal and write the following command
             - which python3.9
-   - Download search.zip by opening from https://inst.eecs.berkeley.edu/~cs188/fa24/projects/proj1/
+   - Download search.zip by opening from https://inst.eecs.berkeley.edu/~cs188/fa24/assets/projects/search.zip
    - Move search.zip file into PyCharm folder created above (AI_Labs for example)
    - Unzip search.zip
       - After unzipping, copy the content from 'search' folder directly into AI_Labs folder, and remove the search.zip file and search folder
