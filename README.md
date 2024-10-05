@@ -12,7 +12,7 @@
 - ▶️ Write Beautiful Code in Python: https://www.youtube.com/watch?v=OSGv2VnC0go&t=802s
 - ▶️ Python OOP Tutorials: https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc
 
-### Lab 2 - Install Ubuntu, PyCharm, Python 2.7 and Create New Project
+### Lab 2 - Install Ubuntu, PyCharm, Python 3.9 and Create New Project
 - ▶️ Ubuntu Installation using Oracle VirtualBox: https://www.youtube.com/watch?v=hYaCCpvjsEY&t=185s
 - ▶️ Debugging in PyCharm: https://www.youtube.com/watch?v=sRGpvbhOhQs
 
@@ -45,13 +45,13 @@
 25. **GIL (Global Interpreter Lock, Concurrency in Python)**
 26. **OOP: Classes and methods, Class variables, Decorators(class methods, static methods, abstract methods, getters and setters) Inheritance (Subclasses), Dunder methods**
   
-## 📂 Lab 2 - Install Ubuntu, PyCharm, Python 2.7 and Create New Project
+## 📂 Lab 2 - Install Ubuntu, PyCharm, Python 3.9 and Create New Project
 
 1. Download and install Oracle VirtualBox and install Ubuntu 22.04 LTS, by watching the tutorial https://www.youtube.com/watch?v=hYaCCpvjsEY&t=185s
 2. Open Ubuntu VM
 3. Install Python 3.9 in Ubuntu 22.04 VM
    - Open Terminal (CTRL + ATL + T) 
-   - Run the following commands in order to install Python 2.7
+   - Run the following commands in order to install Python 3.9
      - sudo apt update
      - sudo apt upgrade
      - sudo add-apt-repository ppa:deadsnakes/ppa
@@ -75,21 +75,21 @@
         - ./pycharm.sh
    - Click the button 'New Project'
    - In the 'New Project' window, do the following steps:
-      - Provide name: For example 'AI_Labs'
+      - Provide name: For example 'Pacman_Framework'
       - Provide location: For example '/home/username/Documents'
       - Provide interpreter: Insert path of the Python 3.9 interpreter
          - In order to get the interpreter path, open a terminal and write the following command
             - which python3.9
    - Download search.zip by opening from https://inst.eecs.berkeley.edu/~cs188/fa24/assets/projects/search.zip
-   - Move search.zip file into PyCharm folder created above (AI_Labs for example)
+   - Move search.zip file into PyCharm folder created above (Pacman_Framework for example)
    - Unzip search.zip
-      - After unzipping, copy the content from 'search' folder directly into AI_Labs folder, and remove the search.zip file and search folder
+      - After unzipping, copy the content from 'search' folder directly into Pacman_Framework folder, and remove the search.zip file and search folder
    - Run file 'pacman.py' by right-clicking the file, and selecting 'Run pacman.py'
    - Enjoy the game!
 
 <p align="center">
   <img 
-    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img1.jpeg"
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img6.jpeg"
     width = "500"
     height = "auto"
   >
@@ -97,7 +97,7 @@
 </p>  
 <p align="center">
   <img 
-    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img2.jpeg"
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img5.jpeg"
     width = "500"
     height = "auto"
   >
@@ -106,7 +106,7 @@
   
 <p align="center">
   <img 
-    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img3.jpeg"
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img7.jpeg"
     width = "250"
     height = "auto"
   >
