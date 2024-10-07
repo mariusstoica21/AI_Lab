@@ -160,17 +160,29 @@
 </div>
 
 2. In the window 'Run/Debug Configurations', click the + button in the left pane, and select Python
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img13.PNG"
+    width="200"
+    height="auto"
+    alt="Img. 6 - Create new configuration"
+  >
+  <br>
+  <em>Img. 6 - Create new configuration</em>
+</div>
+  
 3. Provide name, for example 'pacman tinyMaze search', provide script (pacman.py) and arguments '-l tinyMaze -p SearchAgent -a fn=tinyMazeSearch'
 
 <div align="center">
   <img 
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img12.PNG"
-    width="400"
+    width="500"
     height="auto"
-    alt="Img. 6 - Add configuration name, script and parameters"
+    alt="Img. 7 - Add configuration name, script and parameters"
   >
   <br>
-  <em>Img. 6 - Add configuration name, script and parameters</em>
+  <em>Img. 7 - Add configuration name, script and parameters</em>
 </div>
 
 ### Icons
