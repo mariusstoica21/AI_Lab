@@ -12,9 +12,15 @@
 - ▶️ Write Beautiful Code in Python: https://www.youtube.com/watch?v=OSGv2VnC0go&t=802s
 - ▶️ Python OOP Tutorials: https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc
 
-### Lab 2 - Install Ubuntu, PyCharm, Python 3.9 and Create New Project
+### Lab 2.1. - Install Ubuntu, PyCharm, Python 3.9 and Create New Project
 - ▶️ Ubuntu Installation using Oracle VirtualBox: https://www.youtube.com/watch?v=hYaCCpvjsEY&t=185s
 - ▶️ Debugging in PyCharm: https://www.youtube.com/watch?v=sRGpvbhOhQs
+- 🌐 Pacman Framework, Python 3: https://inst.eecs.berkeley.edu/~cs188/fa24/assets/projects/search.zip
+  
+### Lab 2.2. - Debugging with arguments (Create new configuration), Autograder, Depth First Search
+- 🌐 Berkeley Pacman Framework, Python 3: https://inst.eecs.berkeley.edu/~cs188/fa24/projects/proj1/
+- ▶️ Depth First Search Algorithm: https://www.youtube.com/watch?v=iaBEKo5sM7w&t=83s
+- ▶️ Breadth First Search Algorithm: https://www.youtube.com/watch?v=QRq6p9s8NVg&t=126s
 
 ## 📂 Lab 1 - Python Introduction
 
@@ -86,7 +92,9 @@
       - After unzipping, copy the content from 'search' folder directly into Pacman_Framework folder, and remove the search.zip file and search folder
    - Run file 'pacman.py' by right-clicking the file, and selecting 'Run pacman.py'
    - **If the following error occurs 'ModuleNotFoundError: No module named tkinter':**
-     - Open the Terminal from the PyCharm IDE and run the following command 'sudo apt install python3.9-tk'
+     - Open the Terminal from the PyCharm IDE
+     - Run the following command:
+       - sudo apt install python3.9-tk
    - Run again the file 'pacman.py' by right-clicking the file, and selecting 'Run pacman.py'
    - Enjoy the game!
 
