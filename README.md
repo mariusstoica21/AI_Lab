@@ -51,7 +51,7 @@
 25. **GIL (Global Interpreter Lock, Concurrency in Python)**
 26. **OOP: Classes and methods, Class variables, Decorators(class methods, static methods, abstract methods, getters and setters) Inheritance (Subclasses), Dunder methods**
   
-## 📂 Lab 2 - Install Ubuntu, PyCharm, Python 3.9 and Create New Project
+## 📂 Lab 2.1. - Install Ubuntu, PyCharm, Python 3.9 and Create New Project
 
 1. Download and install Oracle VirtualBox and install Ubuntu 22.04 LTS, by watching the tutorial https://www.youtube.com/watch?v=hYaCCpvjsEY&t=185s
 2. Open Ubuntu VM
@@ -98,40 +98,80 @@
    - Run again the file 'pacman.py' by right-clicking the file, and selecting 'Run pacman.py'
    - Enjoy the game!
 
-<p align="center">
+<div align="center">
   <img 
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img6.jpeg"
-    width = "500"
-    height = "auto"
+    width="500"
+    height="auto"
+    alt="Img. 1 - Welcome to PyCharm"
   >
+  <br>
   <em>Img. 1 - Welcome to PyCharm</em>
-</p>  
-<p align="center">
+</div>
+  
+<div align="center">
   <img 
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img5.jpeg"
-    width = "500"
-    height = "auto"
+    width="500"
+    height="auto"
+    alt="Img. 2 - New Project Frame"
   >
+  <br>
   <em>Img. 2 - New Project Frame</em>
-</p>
-  
-<p align="center">
+</div>
+
+<div align="center">
   <img 
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img7.jpeg"
-    width = "250"
-    height = "auto"
+    width="250"
+    height="auto"
+    alt="Img. 3 - Run pacman"
   >
+  <br>
   <em>Img. 3 - Run pacman</em>
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img 
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img4.jpeg"
-    width = "400"
-    height = "auto"
+    width="400"
+    height="auto"
+    alt="Img. 4 - Pacman Game"
   >
+  <br>
   <em>Img. 4 - Pacman Game</em>
-</p>
+</div>
+
+## 📂 Lab 2.2. - Debugging with arguments (Create new configuration), Autograder, Depth First Search
+
+### Debugging with arguments (Create new configuration)
+
+1. In PyCharm IDE, go to the top menu, and click Run/Edit Configurations...
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img11.PNG"
+    width="400"
+    height="auto"
+    alt="Img. 5 - Edit Configurations"
+  >
+  <br>
+  <em>Img. 5 - Edit Configurations</em>
+</div>
+
+2. In the window 'Run/Debug Configurations', click the + button in the left pane, and select Python
+3. Provide name, for example 'pacman tinyMaze search', provide script (pacman.py) and arguments '-l tinyMaze -p SearchAgent -a fn=tinyMazeSearch'
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img12.PNG"
+    width="400"
+    height="auto"
+    alt="Img. 6 - Add configuration name, script and parameters"
+  >
+  <br>
+  <em>Img. 6 - Add configuration name, script and parameters</em>
+</div>
 
 ### Icons
 
