@@ -24,7 +24,7 @@
 - ▶️ Dijkstra's Algorithm - Computerphile: https://www.youtube.com/watch?v=GazC3A4OQTE
 
 ### Lab 3 - Informed search (A*)
-- 🌐 A* (A Star) Search Algorithm - Computerphile: https://www.youtube.com/watch?v=ySN5Wnu88nE&t=27s
+- ▶️ A* (A Star) Search Algorithm - Computerphile: https://www.youtube.com/watch?v=ySN5Wnu88nE&t=27s
 
 ## 📂 Lab 1 - Python Introduction
 
