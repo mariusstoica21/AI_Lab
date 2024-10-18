@@ -17,10 +17,14 @@
 - ▶️ Debugging in PyCharm: https://www.youtube.com/watch?v=sRGpvbhOhQs
 - 🌐 Pacman Framework, Python 3: https://inst.eecs.berkeley.edu/~cs188/fa24/assets/projects/search.zip
   
-### Lab 2.2. - Debugging with arguments (Create new configuration), Autograder, Depth First Search
+### Lab 2.2. - Debugging with arguments (Create new configuration), Autograder, DFS, BFS, Dijkstra
 - 🌐 Berkeley Pacman Framework, Python 3: https://inst.eecs.berkeley.edu/~cs188/fa24/projects/proj1/
 - ▶️ Depth First Search Algorithm: https://www.youtube.com/watch?v=iaBEKo5sM7w&t=83s
 - ▶️ Breadth First Search Algorithm: https://www.youtube.com/watch?v=QRq6p9s8NVg&t=126s
+- ▶️ Dijkstra's Algorithm - Computerphile: https://www.youtube.com/watch?v=GazC3A4OQTE
+
+### Lab 3 - Informed search (A*)
+- 🌐 A* (A Star) Search Algorithm - Computerphile: https://www.youtube.com/watch?v=ySN5Wnu88nE&t=27s
 
 ## 📂 Lab 1 - Python Introduction
 
