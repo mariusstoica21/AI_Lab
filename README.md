@@ -189,6 +189,23 @@
   <em>Img. 7 - Add configuration name, script and parameters</em>
 </div>
 
+## 📂 Lab 3 - Informed search (A*)
+
+A* uses the following concepts:
+- **Heuristic**: distance from current node, to end node: (Manhattan Distance, Euclidean Distance)
+  - Example: given the node P: (5,5) (Pacman Node) and the node G:(1,1) (Goal Node) the heuristic is: sqrt{(xP - xG)^2 + (yP - yG)^2}
+- **Cost**: cost between nodes, as weights.  
+- **Priority Queue**: add elements into Priority Queue based on the (Cost + Heuristic) value.
+Homework: implement A* algorithm in the Pacman framework.
+Tips & tricks:
+- Each element in the Priority Queue will contain the following information:
+  - **Current node**
+  - **Cost**
+  - **Cost + Heuristic**: in order to add elements to the queue in an informed way (taking into consideration the distance from the current node until the end node)
+  - **Previous node**: in order to compute the path.
+Example:
+
+
 ### Icons
 
 <ul>
