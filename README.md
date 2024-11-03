@@ -193,17 +193,23 @@
 
 A* uses the following concepts:
 - **Heuristic**: distance from current node, to end node: (Manhattan Distance, Euclidean Distance)
-  - Example: given the node P: (5,5) (Pacman Node) and the node G:(1,1) (Goal Node) the heuristic is: sqrt{(xP - xG)^2 + (yP - yG)^2}
+  - Example: given the node P: (5,5) (Pacman Node) and the node G:(1,1) (Goal Node) the heuristic (Euclidean distance) is:
+<p align="center">
+  d(P, G) = √( (xP - xG)² + (yP - yG)²)
+</p>
+
 - **Cost**: cost between nodes, as weights.  
 - **Priority Queue**: add elements into Priority Queue based on the (Cost + Heuristic) value.
 Homework: implement A* algorithm in the Pacman framework.
+
 Tips & tricks:
 - Each element in the Priority Queue will contain the following information:
   - **Current node**
   - **Cost**
   - **Cost + Heuristic**: in order to add elements to the queue in an informed way (taking into consideration the distance from the current node until the end node)
   - **Previous node**: in order to compute the path.
-Example:
+
+For more implementation details, please watch the following video: https://www.youtube.com/watch?v=ySN5Wnu88nE&t=27s
 
 
 ### Icons
