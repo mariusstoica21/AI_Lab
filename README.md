@@ -261,6 +261,15 @@ For more implementation details, please watch the following video: https://www.y
   <em>Img. 10 - Message displayed if installation is successfull</em>
 </div>
 
+## 📂 Lab 6.2. - Run files in Prover9
+
+1. Go to Home/Documents/Prover9 and open /bin folder
+2. Right click -> Open in Terminal
+3. Run the following command 'gedit socrates.in'
+4. Copy the content from into socrates.in and save file
+5. Run the following command './prover9 -f socrates.in'
+6. The following message should be displayed:
+
 
 ### Icons
 
