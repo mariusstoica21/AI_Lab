@@ -233,8 +233,8 @@ For more implementation details, please watch the following video: https://www.y
   <em>Img. 8 - Error Prover9</em>
 </div>
 
-9. In order to resolve the error, go to provers.src folder and open 'Makefile' with text editor
-10. In lines 66,69,72,75,78,81,84 place the '-lm' parameter at the end of the line and save the file
+8. In order to resolve the error, go to provers.src folder and open 'Makefile' with text editor
+9. In lines 66,69,72,75,78,81,84 place the '-lm' parameter at the end of the line and save the file
 
 <div align="center">
   <img 
@@ -247,8 +247,8 @@ For more implementation details, please watch the following video: https://www.y
   <em>Img. 9 - Move the '-lm' parameter at the end of the line</em>
 </div>
 
-11. Redo steps 5 and 6 (Go into the LADR-2009-11A folder -> Right click -> Open in terminal and write the following command: make all)
-12. If the following message is displayed, **you have succesfully installed Prover9 and Mace4**.
+10. Redo steps 5 and 6 (Go into the LADR-2009-11A folder -> Right click -> Open in terminal and write the following command: make all)
+11. If the following message is displayed, **you have succesfully installed Prover9 and Mace4**.
 
 <div align="center">
   <img 
