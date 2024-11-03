@@ -266,9 +266,20 @@ For more implementation details, please watch the following video: https://www.y
 1. Go to Home/Documents/Prover9 and open /bin folder
 2. Right click -> Open in Terminal
 3. Run the following command 'gedit socrates.in'
-4. Copy the content from into socrates.in and save file
-5. Run the following command './prover9 -f socrates.in'
-6. The following message should be displayed:
+4. Copy the content from https://github.com/mariusstoica21/AI_Lab/blob/main/files/lab6/socrates.in into the socrates.in file and save it
+6. Run the following command './prover9 -f socrates.in' from 'Home/Documents/Prover9/bin'
+7. The following message should be displayed:
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img17.jpeg"
+    width="500"
+    height="auto"
+    alt="Img. 11 - Theorem proved"
+  >
+  <br>
+  <em>Img. 11 - Theorem proved</em>
+</div>
 
 
 ### Icons
