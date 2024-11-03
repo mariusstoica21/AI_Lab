@@ -211,6 +211,22 @@ Tips & tricks:
 
 For more implementation details, please watch the following video: https://www.youtube.com/watch?v=ySN5Wnu88nE&t=27s
 
+## 📂 Lab 6 - Propositional logic
+
+## 📂 Lab 6.1. - Install Prover9 and Mace4
+
+1. Download https://www.cs.unm.edu/~mccune/mace4/download/LADR-2009-11A.tar.gz (it has downloaded LADR-2009-11A.tar.gz)
+2. Go to /Home/Documents and create folder 'Prover9' (you can name it as you wish, and can choose the desired location)
+3. Place the LADR-2009-11A.tar.gz file into /Home/Documents/Prover9 folder
+4. Unzip the LADR-2009-11A.tar.gz file (Right click on file -> Extract here)
+5. Go into the LADR-2009-11A folder -> Right click -> Open in terminal
+6. Write the following command: make all
+7. After writing the command, the following error will show up:
+8. In order to resolve the error, go to provers.src folder and open 'Makefile' with text editor
+9. In lines 66,69,72,75,78,81,84 place the '-lm' parameter at the end of the line and save the file
+10. Redo steps 5 and 6 (Go into the LADR-2009-11A folder -> Right click -> Open in terminal and write the following command: make all)
+11. If the following message is displayed, **you have succesfully installed Prover9 and Mace4**.
+
 
 ### Icons
 
