@@ -222,10 +222,44 @@ For more implementation details, please watch the following video: https://www.y
 5. Go into the LADR-2009-11A folder -> Right click -> Open in terminal
 6. Write the following command: make all
 7. After writing the command, the following error will show up:
-8. In order to resolve the error, go to provers.src folder and open 'Makefile' with text editor
-9. In lines 66,69,72,75,78,81,84 place the '-lm' parameter at the end of the line and save the file
-10. Redo steps 5 and 6 (Go into the LADR-2009-11A folder -> Right click -> Open in terminal and write the following command: make all)
-11. If the following message is displayed, **you have succesfully installed Prover9 and Mace4**.
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img14.jpeg"
+    width="500"
+    height="auto"
+    alt="Img. 8 - Error Prover9"
+  >
+  <br>
+  <em>Img. 8 - Error Prover9</em>
+</div>
+
+9. In order to resolve the error, go to provers.src folder and open 'Makefile' with text editor
+10. In lines 66,69,72,75,78,81,84 place the '-lm' parameter at the end of the line and save the file
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img15.jpeg"
+    width="500"
+    height="auto"
+    alt="Img. 9 - Move the -lm parameter at the end of the line"
+  >
+  <br>
+  <em>Img. 9 - Move the '-lm' parameter at the end of the line</em>
+</div>
+
+11. Redo steps 5 and 6 (Go into the LADR-2009-11A folder -> Right click -> Open in terminal and write the following command: make all)
+12. If the following message is displayed, **you have succesfully installed Prover9 and Mace4**.
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img16.jpeg"
+    width="500"
+    height="auto"
+    alt="Img. 10 - Message displayed if installation is successfull"
+  >
+  <br>
+  <em>Img. 10 - Message displayed if installation is successfull</em>
+</div>
 
 
 ### Icons
