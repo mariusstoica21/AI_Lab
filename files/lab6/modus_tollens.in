@@ -1,0 +1,12 @@
+assign(max_seconds, 30).
+set(binary_resolution).
+set(print_gen).
+
+formulas(assumptions).
+    -Q.                % Assume Q is false
+    P -> Q.            % If P is true, then Q is true
+end_of_list.
+
+formulas(goals).
+   -P.                % Goal: Prove P is false
+end_of_list.

@@ -1,0 +1,12 @@
+assign(max_seconds, 30).
+set(binary_resolution).
+set(print_gen).
+
+formulas(assumptions).
+    P -> Q.            % If P is true, then Q is true
+    Q -> R.	       % If Q is true, then R is true
+end_of_list.
+
+formulas(goals).
+   P -> R.              % Goal: Prove if P is true, then R is true
+end_of_list.
