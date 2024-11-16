@@ -26,6 +26,9 @@
 ### Lab 3 - Informed search (A*)
 - ▶️ A* (A Star) Search Algorithm - Computerphile: https://www.youtube.com/watch?v=ySN5Wnu88nE&t=27s
 
+### Lab 6 - Wumpus World (Simple example)
+- ▶️ Wumpus world lecture in Artificial intelligence: https://www.youtube.com/watch?v=R32KPiOBBxg
+
 ## 📂 Lab 1 - Python Introduction
 
 1. Python General Info
