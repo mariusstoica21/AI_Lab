@@ -281,6 +281,89 @@ For more implementation details, please watch the following video: https://www.y
   <em>Img. 11 - Theorem proved</em>
 </div>
 
+## 📂 Lab 6.3. - Propositional logic rules
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img18.jpeg"
+    width="500"
+    height="auto"
+    alt="Img. 12 - Propositional logic main rules"
+  >
+  <br>
+  <em>Img. 12 - Propositional logic main rules</em>
+</div>
+
+## 📂 Lab 6.4. - Propositional logic examples
+
+
+**1. Modus Ponnes**
+
+- Download the file https://github.com/mariusstoica21/AI_Lab/blob/main/files/lab6/modus_ponens.in
+- Place the file into Home/Documents/Prover9/bin folder
+- Open terminal in the path
+- Run the command: ./prover9 -f modus_ponens.in
+- Verify if the theorem is proved: "THEOREM PROVED"
+
+ ```text
+assign(max_seconds, 30).
+set(binary_resolution).
+set(print_gen).
+
+formulas(assumptions).
+    P.                 % Assume P is true
+    P -> Q.            % If P is true, then Q is true
+end_of_list.
+
+formulas(goals).
+   Q.                  % Goal: Prove Q is true
+end_of_list.
+ ```
+**2. Modus Tollens**
+
+- Download the file https://github.com/mariusstoica21/AI_Lab/blob/main/files/lab6/modus_tollens.in
+- Place the file into Home/Documents/Prover9/bin folder
+- Open terminal in the path
+- Run the command: ./prover9 -f modus_tollens.in
+- Verify if the theorem is proved: "THEOREM PROVED"
+
+ ```text
+assign(max_seconds, 30).
+set(binary_resolution).
+set(print_gen).
+
+formulas(assumptions).
+    -Q.                % Assume Q is false
+    P -> Q.            % If P is true, then Q is true
+end_of_list.
+
+formulas(goals).
+   -P.                 % Goal: Prove P is false
+end_of_list.
+ ```
+
+**3. Hypothetical Syllogism**
+
+- Download the file https://github.com/mariusstoica21/AI_Lab/blob/main/files/lab6/hypothetical_syllogism.in
+- Place the file into Home/Documents/Prover9/bin folder
+- Open terminal in the path
+- Run the command: ./prover9 -f hypothetical_syllogism.in
+- Verify if the theorem is proved: "THEOREM PROVED"
+ 
+ ```text
+assign(max_seconds, 30).
+set(binary_resolution).
+set(print_gen).
+
+formulas(assumptions).
+    P -> Q.           % If P is true, then Q is true
+    Q -> R.	     % If Q is true, then R is true
+end_of_list.
+
+formulas(goals).
+   P -> R.            % Goal: Prove if P is true, then R is true
+end_of_list.
+ ```
 
 ### Icons
 
