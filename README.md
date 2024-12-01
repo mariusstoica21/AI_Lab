@@ -29,6 +29,15 @@
 ### Lab 6 - Wumpus World (Simple example)
 - ▶️ Wumpus world lecture in Artificial intelligence: https://www.youtube.com/watch?v=R32KPiOBBxg
 
+### Lab 7 - First Order Logic
+- ▶️ Represent Facts or Knowledge using Predicate Logic in AI by Mahesh Huddar: https://www.youtube.com/watch?v=tFYngFwDuJQ
+- ▶️ Was Marcus loyal to Ceasar? Did Marcus hate Ceasar? using Predicate Logic in AI by Mahesh Huddar: https://www.youtube.com/watch?v=Z0vTGofo2n8&t=225s
+
+### Lab 8 - Inference in First Order Logic
+- ▶️ Resolution (Part 1) - Resolution to Prove Predicate Facts to First Order Logic FOL Artificial Intelligence Mahesh Huddar: https://www.youtube.com/watch?v=CbI-Q2a5rUU&t=300s
+- ▶️ Resolution (Part 2) - Conversion of First Order Logic FOL to CNF Prove Predicate using Resolution Tree Mahesh Huddar: https://www.youtube.com/watch?v=7g6cB3kIHJI
+- ▶️ Skolemization : https://www.youtube.com/watch?v=vRSVeINP4h8&t=84s
+
 ## 📂 Lab 1 - Python Introduction
 
 1. Python General Info
