@@ -38,6 +38,12 @@
 - ▶️ Resolution (Part 2) - Conversion of First Order Logic FOL to CNF Prove Predicate using Resolution Tree Mahesh Huddar: https://www.youtube.com/watch?v=7g6cB3kIHJI
 - ▶️ Skolemization : https://www.youtube.com/watch?v=vRSVeINP4h8&t=84s
 
+### Lab 9 - Constraint satisfaction problems
+- ▶️ Constraint Satisfaction: the AC-3 algorithm: https://www.youtube.com/watch?v=4cCS8rrYT14&t=240s
+- ▶️ Lecture 16 | CSP 6: Stochastic Local Search : https://www.youtube.com/watch?v=E0l8xIXYSY4&t=967s
+- ▶️ CryptArithmetic Problem in Artificial Intelligence | SEND + MORE = MONEY Solution | Pratiksha Jain: https://www.youtube.com/watch?v=jWvWOUb0hOI
+
+
 ## 📂 Lab 1 - Python Introduction
 
 1. Python General Info
