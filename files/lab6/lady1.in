@@ -1,0 +1,10 @@
+%assign(max_seconds, 30).
+%set(binary_resolution).
+%set(print_gen).
+
+formulas(assumptions).
+   l1 | l2 | l3.
+end_of_list.
+
+formulas(goals).
+end_of_list.
