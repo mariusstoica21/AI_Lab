@@ -493,7 +493,20 @@ end_of_list.
 
 1. Click File -> Load from File
 2. Go to 'Documents/CSP_Solver' and select CSP_1.xml
-3. Click 'Open' button 
+3. Click 'Open' button
+
+## 📂 Lab 9.2. - Solving CSP with stochastic local search
+
+##  Lab 9.2.1. - Setup
+
+1. Go to http://www.aispace.org/downloads.shtml
+2. Download Stochastic Local Search Based CSP Solver: Version 4.6.0. (.jar download)
+3. In Documents folder, create a new folder 'CSP_Solver_SLS'
+4. Copy 'hill.jar' file downloaded at step 2, and paste into Documents/CSP_Solver_SLS folder created at step 3.
+5. In folder Documents/CSP_Solver_SLS, right click and "Open in Terminal"
+6. Run the following command in order to open CSP Solver "java -jar hill.jar"
+
+
 
 ### Icons
 
