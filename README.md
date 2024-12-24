@@ -589,6 +589,46 @@ end_of_list.
   <em>Img. 24 - Five Queens Problem - Show Plot Greedy Descent</em>
 </div>
 
+## 📂 Lab 10 - Classical planning
+
+## 📂 Lab 9.1. - Install FastDownward
+
+1. In folder 'Documents', create a new folder named 'FD'
+2. Go to "https://github.com/aibasel/downward" and click the green 'Code' button
+3. Click 'Download ZIP'
+4. Go to 'Downloads' and copy 'downward-main.zip'
+5. Paste 'downward-main.zip' file into 'Documents/FD' folder created at step 1
+6. Right click the 'downward-main.zip' file and click 'Extract Here'
+7. Go into the 'downward-main' folder created
+8. Right click and 'Open in Terminal'
+9. Run the following commands:
+- sudo apt install cmake g++ make python3
+- export cplex_DIR=/opt/ibm/ILOG/CPLEX_Studio2211/cplex
+- sudo apt install libgmp3-dev
+- wget https://github.com/scipopt/soplex/archive/refs/tags/release-710.tar.gz -O - | tar -xz
+- cmake -S soplex-release-710 -B build
+- cmake --build build
+- export soplex_DIR=/opt/soplex-7.1.0
+- cmake --install build --prefix $soplex_DIR
+- ./build.py
+10. In 'Documents/FD/downward-main' create folder 'Gripper'
+11. Go to 'https://fai.cs.uni-saarland.de/hoffmann/ff-domains.html' to the 'Gripper' section
+12. From the Gripper section, download 'domain.pddl'
+13. Paste the 'domain.pddl' file into 'Documents/FD/downward-main/Gripper' folder
+14. From the Gripper section, download 'GENERATOR.tar.gz' into 'Documents/FD/downward-main/Gripper' folder
+15. Right click the 'GENERATOR.tar.gz' and 'Extract Here'
+16. Go into the 'GENERATOR' folder
+17. Right click in the folder and click 'Open in Terminal'
+18. Run 'make'
+19. Run './gripper -n 8' (Create a problem with 8 balls)
+20. Copy content printed in terminal into 'problem.pddl' file created in the folder 'Documents/FD/downward-main/Gripper'
+21. Go to 'Documents/FD/downward-main' and run the command './fast-downward.py Gripper/domain.pddl Gripper/problem.pddl --search "astar(lmcut())'
+22. Check if 'Solution found'
+
+
+  
+
+
 ### Icons
 
 <ul>
