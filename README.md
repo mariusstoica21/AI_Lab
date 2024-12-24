@@ -383,6 +383,17 @@ formulas(goals).
 end_of_list.
  ```
 
+## 📂 Lab 9 - Constraint satisfaction problems
+
+## 📂 Lab 9.1. - Solving CSP by consistency checking
+
+1. Go to http://www.aispace.org/downloads.shtml
+2. Download Consistency Based CSP Solver: Version 4.6.1. (.jar download)
+3. In Documents folder, create a new folder 'CSP_Solver'
+4. Copy 'constraint.jar' file downloaded at step 2, and paste into Documents/CSP_Solver folder created at step 3.
+5. In folder Documents/CSP_Solver, right click and "Open in Terminal"
+6. Run the following command in order to open CSP Solver "java -jar constraint.jar"
+
 ### Icons
 
 <ul>
