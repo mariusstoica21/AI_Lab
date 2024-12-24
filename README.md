@@ -416,10 +416,56 @@ end_of_list.
 - Provide 'Domain Type' (for example, 'Integer')
 - Provide 'Domain' (for example, '1,2,3')
 - Create all the remaining variables
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img20.png"
+    width="500"
+    height="auto"
+    alt="Img. 14 - Create Variable"
+  >
+  <br>
+  <em>Img. 14 - Create Variable</em>
+</div>
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img21.png"
+    width="500"
+    height="auto"
+    alt="Img. 15 - All variables created"
+  >
+  <br>
+  <em>Img. 15 - All variables created</em>
+</div>
+
 1.2. Create constraints: A > B, B = C
 - Select 'Create Constraint' button and choose the variables contained by the constraint (for example, 'A' and 'B' for 'A > B')
 - Choose 'Constraint Type' (for example 'GreaterThan') and click 'OK' button
 - Create all the remaining constraints
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img22.png"
+    width="500"
+    height="auto"
+    alt="Img. 16 - Create Constraint"
+  >
+  <br>
+  <em>Img. 16 - Create Constraint</em>
+</div>
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img23.png"
+    width="500"
+    height="auto"
+    alt="Img. 17 - All constraints created"
+  >
+  <br>
+  <em>Img. 17 - All constraints created</em>
+</div>
+
 
 ### Icons
 
