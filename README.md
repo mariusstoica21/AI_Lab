@@ -521,7 +521,28 @@ end_of_list.
 
 1. Click on File -> Load Sample CSP
 2. Select 'Five Queens Problem' and click 'Load'
+   
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img26.png"
+    width="500"
+    height="auto"
+    alt="Img. 20 - Load sample CSP"
+  >
+  <br>
+  <em>Img. 20 - Load sample CSP</em>
+</div>
 
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img27.png"
+    width="500"
+    height="auto"
+    alt="Img. 21 - Five Queens Problem"
+  >
+  <br>
+  <em>Img. 21 - Five Queens Problem</em>
+</div>
 
 
 ### Icons
