@@ -556,7 +556,38 @@ end_of_list.
 8. Click 'Batch Run' in order to see a comparison between the selected algorithms
 9. Click 'Show Plot' in order to see the number of conflicts present at each step
 
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img29.png"
+    width="500"
+    height="auto"
+    alt="Img. 22 - Batch Run: Random Walk vs Greedy Descent"
+  >
+  <br>
+  <em>Img. 22 - Batch Run: Random Walk vs Greedy Descent</em>
+</div>
 
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img28.png"
+    width="500"
+    height="auto"
+    alt="Img. 23 - Five Queens Problem - Show Plot Random Walk"
+  >
+  <br>
+  <em>Img. 23 - Five Queens Problem - Show Plot Random Walk</em>
+</div>
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img30.png"
+    width="500"
+    height="auto"
+    alt="Img. 24 - Five Queens Problem - Show Plot Greedy Descent"
+  >
+  <br>
+  <em>Img. 24 - Five Queens Problem - Show Plot Greedy Descent</em>
+</div>
 
 ### Icons
 
