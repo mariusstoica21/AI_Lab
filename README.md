@@ -382,6 +382,115 @@ formulas(goals).
    P -> R.            % Goal: Prove if P is true, then R is true
 end_of_list.
  ```
+
+## 📂 Lab 6 - Models in propositional logic
+
+## 📂 Lab 6.1. - Princesses and tigers
+
+**Problem description (Sentences):**
+
+A prisoner is given by the King holding him the opportunity to improve his situation if he solves a puzzle. He is told there are three rooms in the castle: one room contains a lady and
+the other two contain a tiger each. If the prisoner opens the door to the room containing the lady, he will marry her and get a pardon. If he opens a door to a tiger room though, he will be
+eaten alive. Of course the prisoner wants to get married and be set free than being eaten alive. The door of each room has a sign bearing a statement that may be either true or false. The
+sign on the door of the room containing the lady is true and at least one of the signs on the doors of the rooms containing tigers is false. The signs say respectively:
+- (The sign on the door of room #1): There is a tiger in room #2.
+- (The sign on the door of room #2): There is a tiger in this room.
+- (The sign on the door of room #3): There is a tiger in room #1.
+
+**Question:**
+
+Can you tell in which room the lady is?
+
+**Formalizing in FOL**
+
+**Step 1: There is a lady in room number 1, 2 or 3**
+
+ ```text
+%assign(max_seconds, 30).
+%set(binary_resolution).
+%set(print_gen).
+
+formulas(assumptions).
+   l1 | l2 | l3.
+end_of_list.
+
+formulas(goals).
+end_of_list.
+ ```
+
+Command: ./mace4 -c -n 2 -m -1 -f lady1.in
+
+**Step 2: No lady in more than 1 room (the princess is unique)**
+
+ ```text
+%assign(max_seconds, 30).
+%set(binary_resolution).
+%set(print_gen).
+
+formulas(assumptions).
+   l1 | l2 | l3.
+   l1 -> -l2.
+   l1 -> -l3.
+   l2 -> -l1.
+   l2 -> -l3.
+   l3 -> -l1.
+   l3 -> -l2.
+end_of_list.
+
+formulas(goals).
+end_of_list.
+ ```
+
+Command: ./mace4 -c -n 2 -m -1 -f lady2.in
+
+**Step 3: Add the whole Knowledge Base**
+
+ ```text
+%assign(max_seconds, 30).
+%set(binary_resolution).
+%set(print_gen).
+
+formulas(assumptions).
+   %there is a lady in room 1,2 or 3
+   l1 | l2 | l3.
+   
+   %no lady in more than 1 room
+   l1 -> -l2.
+   l1 -> -l3.
+   l2 -> -l1.
+   l2 -> -l3.
+   l3 -> -l1.
+   l3 -> -l2.
+   
+   %there are 2 tigers in 2 of the rooms 1,2 or 3
+   t1 & t2 | t1 & t3 | t2 & t3.
+   
+   %no tiger in the room where the lady stays
+   l1 -> -t1.
+   l2 -> -t2.
+   l3 -> -t3.
+   
+   %clue on door #1 : there is a tiger in room #2
+   l1 -> t2.
+   
+   %clue on door #2 : there is a tiger here
+   l2 -> t2.
+   
+   %clue on door #3 : there is a tiger in room #1
+   l3 -> t1.
+   
+   %at least one of the clues on tiger room lies
+   (t1 & t2) -> (-t2 | -t2).
+   (t2 & t3) -> (-t2 | -t1).
+   (t1 & t3) -> (-t2 | -t1).
+end_of_list.
+
+formulas(goals).
+end_of_list.
+ ```
+
+Command: ./mace4 -c -n 2 -m -1 -f lady3.in
+
 ## 📂 Lab 7 - First Order Logic
 
 **Sentences:**
