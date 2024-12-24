@@ -407,7 +407,7 @@ end_of_list.
   <em>Img. 13 - CSP Solver G.U.I.</em>
 </div>
 
-##  Lab 9.1.2. - Problem
+##  Lab 9.1.2. - Create Problem
 
 1. Create the following problem that shall be solved using AC-3 algorithm: https://www.youtube.com/watch?v=4cCS8rrYT14&t=240s
 1.1. Create variables: A = {1,2,3}, B = {1,2,3}, C = {1,2,3}
@@ -465,6 +465,14 @@ end_of_list.
   <br>
   <em>Img. 17 - All constraints created</em>
 </div>
+
+##  Lab 9.1.3. - Solve Problem
+
+1. Change to 'Solve mode'
+2. Click 'Auto Arc-Consistency' and wait
+3. Check the solution found: A = {2,3}, B = {1,2}, C = {1,2}
+
+
 
 
 ### Icons
