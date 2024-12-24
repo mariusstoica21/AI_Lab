@@ -517,6 +517,13 @@ end_of_list.
   <em>Img. 19 - CSP Solver Stochastic Local Search G.U.I.</em>
 </div>
 
+##  Lab 9.2.2. - Load Sample Problem
+
+1. Click on File -> Load Sample CSP
+2. Select 'Five Queens Problem' and click 'Load'
+
+
+
 ### Icons
 
 <ul>
