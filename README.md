@@ -506,7 +506,16 @@ end_of_list.
 5. In folder Documents/CSP_Solver_SLS, right click and "Open in Terminal"
 6. Run the following command in order to open CSP Solver "java -jar hill.jar"
 
-
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img25.png"
+    width="500"
+    height="auto"
+    alt="Img. 19 - CSP Solver Stochastic Local Search G.U.I."
+  >
+  <br>
+  <em>Img. 19 - CSP Solver Stochastic Local Search G.U.I.</em>
+</div>
 
 ### Icons
 
