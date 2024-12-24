@@ -26,7 +26,7 @@
 ### Lab 3 - Informed search (A*)
 - ▶️ A* (A Star) Search Algorithm - Computerphile: https://www.youtube.com/watch?v=ySN5Wnu88nE&t=27s
 
-### Lab 6 - Wumpus World (Simple example)
+### Lab 5 - Wumpus World (Simple example)
 - ▶️ Wumpus world lecture in Artificial intelligence: https://www.youtube.com/watch?v=R32KPiOBBxg
 
 ### Lab 7 - First Order Logic
@@ -229,9 +229,9 @@ Tips & tricks:
 
 For more implementation details, please watch the following video: https://www.youtube.com/watch?v=ySN5Wnu88nE&t=27s
 
-## 📂 Lab 6 - Propositional logic
+## 📂 Lab 5 - Propositional logic
 
-## 📂 Lab 6.1. - Install Prover9 and Mace4
+## 📂 Lab 5.1. - Install Prover9 and Mace4
 
 1. Download https://www.cs.unm.edu/~mccune/mace4/download/LADR-2009-11A.tar.gz (it has downloaded LADR-2009-11A.tar.gz)
 2. Go to /Home/Documents and create folder 'Prover9' (you can name it as you wish, and can choose the desired location)
@@ -245,10 +245,10 @@ For more implementation details, please watch the following video: https://www.y
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img14.jpeg"
     width="500"
     height="auto"
-    alt="Img. 6.1. - Error Prover9"
+    alt="Img. 5.1. - Error Prover9"
   >
   <br>
-  <em>Img. 6.1. - Error Prover9</em>
+  <em>Img. 5.1. - Error Prover9</em>
 </div>
 
 8. In order to resolve the error, go to provers.src folder and open 'Makefile' with text editor
@@ -259,10 +259,10 @@ For more implementation details, please watch the following video: https://www.y
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img15.jpeg"
     width="500"
     height="auto"
-    alt="Img. 6.2. - Move the -lm parameter at the end of the line"
+    alt="Img. 5.2. - Move the -lm parameter at the end of the line"
   >
   <br>
-  <em>Img. 6.2. - Move the '-lm' parameter at the end of the line</em>
+  <em>Img. 5.2. - Move the '-lm' parameter at the end of the line</em>
 </div>
 
 10. Redo steps 5 and 6 (Go into the LADR-2009-11A folder -> Right click -> Open in terminal and write the following command: make all)
@@ -273,13 +273,13 @@ For more implementation details, please watch the following video: https://www.y
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img16.jpeg"
     width="500"
     height="auto"
-    alt="Img. 6.3. - Message displayed if installation is successfull"
+    alt="Img. 5.3. - Message displayed if installation is successfull"
   >
   <br>
-  <em>Img. 6.3. - Message displayed if installation is successfull</em>
+  <em>Img. 5.3. - Message displayed if installation is successfull</em>
 </div>
 
-## 📂 Lab 6.2. - Run files in Prover9
+## 📂 Lab 5.2. - Run files in Prover9
 
 1. Go to Home/Documents/Prover9 and open /bin folder
 2. Right click -> Open in Terminal
@@ -293,26 +293,26 @@ For more implementation details, please watch the following video: https://www.y
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img17.jpeg"
     width="500"
     height="auto"
-    alt="Img. 6.4. - Theorem proved"
+    alt="Img. 5.4. - Theorem proved"
   >
   <br>
-  <em>Img. 6.4. - Theorem proved</em>
+  <em>Img. 5.4. - Theorem proved</em>
 </div>
 
-## 📂 Lab 6.3. - Propositional logic rules
+## 📂 Lab 5.3. - Propositional logic rules
 
 <div align="center">
   <img 
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img18.jpeg"
     width="500"
     height="auto"
-    alt="Img. 6.5. - Propositional logic main rules"
+    alt="Img. 5.5. - Propositional logic main rules"
   >
   <br>
-  <em>Img. 6.5. - Propositional logic main rules</em>
+  <em>Img. 5.5. - Propositional logic main rules</em>
 </div>
 
-## 📂 Lab 6.4. - Propositional logic examples
+## 📂 Lab 5.4. - Propositional logic examples
 
 
 **1. Modus Ponnes**
