@@ -387,12 +387,39 @@ end_of_list.
 
 ## 📂 Lab 9.1. - Solving CSP by consistency checking
 
+##  Lab 9.1.1. - Setup
+
 1. Go to http://www.aispace.org/downloads.shtml
 2. Download Consistency Based CSP Solver: Version 4.6.1. (.jar download)
 3. In Documents folder, create a new folder 'CSP_Solver'
 4. Copy 'constraint.jar' file downloaded at step 2, and paste into Documents/CSP_Solver folder created at step 3.
 5. In folder Documents/CSP_Solver, right click and "Open in Terminal"
 6. Run the following command in order to open CSP Solver "java -jar constraint.jar"
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img19.png"
+    width="500"
+    height="auto"
+    alt="Img. 13 - CSP Solver G.U.I."
+  >
+  <br>
+  <em>Img. 13 - CSP Solver G.U.I.</em>
+</div>
+
+##  Lab 9.1.2. - Problem
+
+1. Create the following problem that shall be solved using AC-3 algorithm: https://www.youtube.com/watch?v=4cCS8rrYT14&t=240s
+1.1. Create variables: A = {1,2,3}, B = {1,2,3}, C = {1,2,3}
+- Select 'Create Varible' button and left-click into the white screen
+- Provide 'Variable Name' (for example, 'A')
+- Provide 'Domain Type' (for example, 'Integer')
+- Provide 'Domain' (for example, '1,2,3')
+- Create all the remaining variables
+1.2. Create constraints: A > B, B = C
+- Select 'Create Constraint' button and choose the variables contained by the constraint (for example, 'A' and 'B' for 'A > B')
+- Choose 'Constraint Type' (for example 'GreaterThan') and click 'OK' button
+- Create all the remaining constraints
 
 ### Icons
 
