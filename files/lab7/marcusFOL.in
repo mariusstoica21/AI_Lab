@@ -1,0 +1,22 @@
+set(binary_resolution).
+set(print_gen).
+
+formulas(assumptions).
+	man(Marcus).
+	Pompeian(Marcus).
+	all x (Pompeian(x) -> Roman(x)).
+	ruler(Caesar).
+	all x (Roman(x) -> loyalto(x,Caesar) | hate(x,Caesar)).
+	all x (exists y (loyalto(x, y))).
+	all x (all y (person(x) & ruler(y) & tryassassinate(x,y) -> -loyalto(x,y))).
+	tryassassinate(Marcus,Caesar).
+	all x (man(x) -> person(x)).
+end_of_list.
+
+formulas(goals).
+	%-loyalto(Marcus,Caesar).
+	hate(Marcus,Caesar).
+end_of_list.
+
+
+
