@@ -544,6 +544,19 @@ end_of_list.
   <em>Img. 21 - Five Queens Problem</em>
 </div>
 
+##  Lab 9.2.3. - Solve Problem
+
+1. Go to 'Solve mode'
+2. Click 'Initialize' button
+3. Go to Hill Options -> Algorithm Options
+4. At 'Local Search Steps' choose 'Random Walk'/'Greedy Descent'
+5. At 'Termination' select maximum number of steps (for example 100)
+6. Click 'OK'
+7. Click 'Auto Solve' and wait to find a solution (depending on the algorithm selected)
+8. Click 'Batch Run' in order to see a comparison between the selected algorithms
+9. Click 'Show Plot' in order to see the number of conflicts present at each step
+
+
 
 ### Icons
 
