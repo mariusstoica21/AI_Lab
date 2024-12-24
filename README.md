@@ -472,8 +472,28 @@ end_of_list.
 2. Click 'Auto Arc-Consistency' and wait
 3. Check the solution found: A = {2,3}, B = {1,2}, C = {1,2}
 
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img24.png"
+    width="500"
+    height="auto"
+    alt="Img. 18 - Auto Arc-Consistency"
+  >
+  <br>
+  <em>Img. 18 - Auto Arc-Consistency</em>
+</div>
 
+##  Lab 9.1.4. - Save CSP
 
+1. Click on File -> Save CSP
+2. In the new windows, go to 'Documents/CSP_Solver' and provide a name (for example, CSP_1.xml)
+3. Click 'Save' button
+
+##  Lab 9.1.5. - Load CSP
+
+1. Click File -> Load from File
+2. Go to 'Documents/CSP_Solver' and select CSP_1.xml
+3. Click 'Open' button 
 
 ### Icons
 
