@@ -417,8 +417,18 @@ end_of_list.
 formulas(goals).
 end_of_list.
  ```
-
 Command: ./mace4 -c -n 2 -m -1 -f lady1.in
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img35.png"
+    width="500"
+    height="auto"
+    alt="Img. 6.1. - Models found for step 1"
+  >
+  <br>
+  <em>Img. 6.1. - Models found for step 1</em>
+</div>
 
 **Step 2: No lady in more than 1 room (the princess is unique)**
 
@@ -440,8 +450,18 @@ end_of_list.
 formulas(goals).
 end_of_list.
  ```
-
 Command: ./mace4 -c -n 2 -m -1 -f lady2.in
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img36.png"
+    width="500"
+    height="auto"
+    alt="Img. 6.2. - Models found for step 2"
+  >
+  <br>
+  <em>Img. 6.2. - Models found for step 2</em>
+</div>
 
 **Step 3: Add the whole Knowledge Base**
 
@@ -488,8 +508,18 @@ end_of_list.
 formulas(goals).
 end_of_list.
  ```
-
 Command: ./mace4 -c -n 2 -m -1 -f lady3.in
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img36.png"
+    width="500"
+    height="auto"
+    alt="Img. 6.3. - Models found for step 3"
+  >
+  <br>
+  <em>Img. 6.3. - Models found for step 3</em>
+</div>
 
 ## 📂 Lab 7 - First Order Logic
 
