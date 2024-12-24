@@ -382,6 +382,30 @@ formulas(goals).
    P -> R.            % Goal: Prove if P is true, then R is true
 end_of_list.
  ```
+## 📂 Lab 7 - First Order Logic
+
+**Sentences:**
+1. Marcus was a man.
+2. Marcus was a Pompeian.
+3. All Pompeians were Romans.
+4. Caesar was a ruler.
+5. All Romans were either loyal to Caesar or hated him.
+6. Everyone is loyal to someone.
+7. People only try to assassinate rulers they are not loyal to.
+8. Marcus tried to assassinate Caesar.
+9. All men are people.
+
+**Formalize in First Order Logic:**
+1. man(Marcus).
+2. Pompeian(Marcus).
+3. all x (Pompeian(x) -> Roman(x)).
+4. ruler(Caesar).
+5. all x (Roman(x) -> loyalto(x,Caesar) | hate(x,Caesar)).
+6. all x (exists y (loyalto(x, y))).
+7. all x (all y (person(x) & ruler(y) & tryassassinate(x,y) -> -loyalto(x,y))).
+8. tryassassinate(Marcus,Caesar).
+9. all x (man(x) -> person(x)).
+
 
 ## 📂 Lab 9 - Constraint satisfaction problems
 
