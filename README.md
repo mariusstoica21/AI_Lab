@@ -125,10 +125,10 @@
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img6.jpeg"
     width="500"
     height="auto"
-    alt="Img. 1 - Welcome to PyCharm"
+    alt="Img. 2.1. - Welcome to PyCharm"
   >
   <br>
-  <em>Img. 1 - Welcome to PyCharm</em>
+  <em>Img. 2.1. - Welcome to PyCharm</em>
 </div>
   
 <div align="center">
@@ -136,10 +136,10 @@
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img5.jpeg"
     width="500"
     height="auto"
-    alt="Img. 2 - New Project Frame"
+    alt="Img. 2.2. - New Project Frame"
   >
   <br>
-  <em>Img. 2 - New Project Frame</em>
+  <em>Img. 2.2. - New Project Frame</em>
 </div>
 
 <div align="center">
@@ -147,10 +147,10 @@
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img7.jpeg"
     width="250"
     height="auto"
-    alt="Img. 3 - Run pacman"
+    alt="Img. 2.3. - Run pacman"
   >
   <br>
-  <em>Img. 3 - Run pacman</em>
+  <em>Img. 2.3. - Run pacman</em>
 </div>
 
 <div align="center">
@@ -158,10 +158,10 @@
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img4.jpeg"
     width="400"
     height="auto"
-    alt="Img. 4 - Pacman Game"
+    alt="Img. 2.4. - Pacman Game"
   >
   <br>
-  <em>Img. 4 - Pacman Game</em>
+  <em>Img. 2.4. - Pacman Game</em>
 </div>
 
 ## 📂 Lab 2.2. - Debugging with arguments (Create new configuration), Autograder, Depth First Search
@@ -175,10 +175,10 @@
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img11.PNG"
     width="400"
     height="auto"
-    alt="Img. 5 - Edit Configurations"
+    alt="Img. 2.5. - Edit Configurations"
   >
   <br>
-  <em>Img. 5 - Edit Configurations</em>
+  <em>Img. 2.5. - Edit Configurations</em>
 </div>
 
 2. In the window 'Run/Debug Configurations', click the + button in the left pane, and select Python
@@ -188,10 +188,10 @@
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img13.PNG"
     width="200"
     height="auto"
-    alt="Img. 6 - Create new configuration"
+    alt="Img. 2.6. - Create new configuration"
   >
   <br>
-  <em>Img. 6 - Create new configuration</em>
+  <em>Img. 2.6. - Create new configuration</em>
 </div>
   
 3. Provide name, for example 'pacman tinyMaze search', provide script (pacman.py) and arguments '-l tinyMaze -p SearchAgent -a fn=tinyMazeSearch'
@@ -201,10 +201,10 @@
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img12.PNG"
     width="500"
     height="auto"
-    alt="Img. 7 - Add configuration name, script and parameters"
+    alt="Img. 2.7. - Add configuration name, script and parameters"
   >
   <br>
-  <em>Img. 7 - Add configuration name, script and parameters</em>
+  <em>Img. 2.7. - Add configuration name, script and parameters</em>
 </div>
 
 ## 📂 Lab 3 - Informed search (A*)
@@ -245,10 +245,10 @@ For more implementation details, please watch the following video: https://www.y
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img14.jpeg"
     width="500"
     height="auto"
-    alt="Img. 8 - Error Prover9"
+    alt="Img. 6.1. - Error Prover9"
   >
   <br>
-  <em>Img. 8 - Error Prover9</em>
+  <em>Img. 6.1. - Error Prover9</em>
 </div>
 
 8. In order to resolve the error, go to provers.src folder and open 'Makefile' with text editor
@@ -259,10 +259,10 @@ For more implementation details, please watch the following video: https://www.y
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img15.jpeg"
     width="500"
     height="auto"
-    alt="Img. 9 - Move the -lm parameter at the end of the line"
+    alt="Img. 6.2. - Move the -lm parameter at the end of the line"
   >
   <br>
-  <em>Img. 9 - Move the '-lm' parameter at the end of the line</em>
+  <em>Img. 6.2. - Move the '-lm' parameter at the end of the line</em>
 </div>
 
 10. Redo steps 5 and 6 (Go into the LADR-2009-11A folder -> Right click -> Open in terminal and write the following command: make all)
@@ -273,10 +273,10 @@ For more implementation details, please watch the following video: https://www.y
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img16.jpeg"
     width="500"
     height="auto"
-    alt="Img. 10 - Message displayed if installation is successfull"
+    alt="Img. 6.3. - Message displayed if installation is successfull"
   >
   <br>
-  <em>Img. 10 - Message displayed if installation is successfull</em>
+  <em>Img. 6.3. - Message displayed if installation is successfull</em>
 </div>
 
 ## 📂 Lab 6.2. - Run files in Prover9
@@ -293,10 +293,10 @@ For more implementation details, please watch the following video: https://www.y
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img17.jpeg"
     width="500"
     height="auto"
-    alt="Img. 11 - Theorem proved"
+    alt="Img. 6.4. - Theorem proved"
   >
   <br>
-  <em>Img. 11 - Theorem proved</em>
+  <em>Img. 6.4. - Theorem proved</em>
 </div>
 
 ## 📂 Lab 6.3. - Propositional logic rules
@@ -306,10 +306,10 @@ For more implementation details, please watch the following video: https://www.y
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img18.jpeg"
     width="500"
     height="auto"
-    alt="Img. 12 - Propositional logic main rules"
+    alt="Img. 6.5. - Propositional logic main rules"
   >
   <br>
-  <em>Img. 12 - Propositional logic main rules</em>
+  <em>Img. 6.5. - Propositional logic main rules</em>
 </div>
 
 ## 📂 Lab 6.4. - Propositional logic examples
@@ -406,6 +406,34 @@ end_of_list.
 8. tryassassinate(Marcus,Caesar).
 9. all x (man(x) -> person(x)).
 
+**Inferences**
+1. Was Marcus loyal to Caesar?
+- loyalto(Marcus,Caesar).
+2. Did Marcus hate Caesar?
+- hate(Marcus,Caesar).
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img33.png"
+    width="500"
+    height="auto"
+    alt="Img. 7.1. - Proof that Marcus was not loyal to Caesar"
+  >
+  <br>
+  <em>Img. 7.1. - Proof that Marcus was not loyal to Caesar</em>
+</div>
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img34.png"
+    width="500"
+    height="auto"
+    alt="Img. 7.2. - Proof that Marcus hated Caesar"
+  >
+  <br>
+  <em>Img. 7.2. - Proof that Marcus hated Caesar</em>
+</div>
+
 
 ## 📂 Lab 9 - Constraint satisfaction problems
 
@@ -425,10 +453,10 @@ end_of_list.
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img19.png"
     width="500"
     height="auto"
-    alt="Img. 13 - CSP Solver G.U.I."
+    alt="Img. 9.1. - CSP Solver G.U.I."
   >
   <br>
-  <em>Img. 13 - CSP Solver G.U.I.</em>
+  <em>Img. 9.1. - CSP Solver G.U.I.</em>
 </div>
 
 ##  Lab 9.1.2. - Create Problem
@@ -446,10 +474,10 @@ end_of_list.
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img20.png"
     width="500"
     height="auto"
-    alt="Img. 14 - Create Variable"
+    alt="Img. 9.2. - Create Variable"
   >
   <br>
-  <em>Img. 14 - Create Variable</em>
+  <em>Img. 9.2. - Create Variable</em>
 </div>
 
 <div align="center">
@@ -457,10 +485,10 @@ end_of_list.
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img21.png"
     width="500"
     height="auto"
-    alt="Img. 15 - All variables created"
+    alt="Img. 9.3. - All variables created"
   >
   <br>
-  <em>Img. 15 - All variables created</em>
+  <em>Img. 9.3. - All variables created</em>
 </div>
 
 1.2. Create constraints: A > B, B = C
@@ -473,10 +501,10 @@ end_of_list.
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img22.png"
     width="500"
     height="auto"
-    alt="Img. 16 - Create Constraint"
+    alt="Img. 9.4. - Create Constraint"
   >
   <br>
-  <em>Img. 16 - Create Constraint</em>
+  <em>Img. 9.4. - Create Constraint</em>
 </div>
 
 <div align="center">
@@ -484,10 +512,10 @@ end_of_list.
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img23.png"
     width="500"
     height="auto"
-    alt="Img. 17 - All constraints created"
+    alt="Img. 9.5. - All constraints created"
   >
   <br>
-  <em>Img. 17 - All constraints created</em>
+  <em>Img. 9.5. - All constraints created</em>
 </div>
 
 ##  Lab 9.1.3. - Solve Problem
@@ -501,10 +529,10 @@ end_of_list.
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img24.png"
     width="500"
     height="auto"
-    alt="Img. 18 - Auto Arc-Consistency"
+    alt="Img. 9.6. - Auto Arc-Consistency"
   >
   <br>
-  <em>Img. 18 - Auto Arc-Consistency</em>
+  <em>Img. 9.6. - Auto Arc-Consistency</em>
 </div>
 
 ##  Lab 9.1.4. - Save CSP
@@ -535,10 +563,10 @@ end_of_list.
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img25.png"
     width="500"
     height="auto"
-    alt="Img. 19 - CSP Solver Stochastic Local Search G.U.I."
+    alt="Img. 9.7. - CSP Solver Stochastic Local Search G.U.I."
   >
   <br>
-  <em>Img. 19 - CSP Solver Stochastic Local Search G.U.I.</em>
+  <em>Img. 9.7. - CSP Solver Stochastic Local Search G.U.I.</em>
 </div>
 
 ##  Lab 9.2.2. - Load Sample Problem
@@ -551,10 +579,10 @@ end_of_list.
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img26.png"
     width="500"
     height="auto"
-    alt="Img. 20 - Load sample CSP"
+    alt="Img. 9.8. - Load sample CSP"
   >
   <br>
-  <em>Img. 20 - Load sample CSP</em>
+  <em>Img. 9.8. - Load sample CSP</em>
 </div>
 
 <div align="center">
@@ -562,10 +590,10 @@ end_of_list.
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img27.png"
     width="500"
     height="auto"
-    alt="Img. 21 - Five Queens Problem"
+    alt="Img. 9.9 - Five Queens Problem"
   >
   <br>
-  <em>Img. 21 - Five Queens Problem</em>
+  <em>Img. 9.9. - Five Queens Problem</em>
 </div>
 
 ##  Lab 9.2.3. - Solve Problem
@@ -585,10 +613,10 @@ end_of_list.
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img29.png"
     width="500"
     height="auto"
-    alt="Img. 22 - Batch Run: Random Walk vs Greedy Descent"
+    alt="Img. 9.10. - Batch Run: Random Walk vs Greedy Descent"
   >
   <br>
-  <em>Img. 22 - Batch Run: Random Walk vs Greedy Descent</em>
+  <em>Img. 9.10. - Batch Run: Random Walk vs Greedy Descent</em>
 </div>
 
 <div align="center">
@@ -596,10 +624,10 @@ end_of_list.
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img28.png"
     width="500"
     height="auto"
-    alt="Img. 23 - Five Queens Problem - Show Plot Random Walk"
+    alt="Img. 9.11. - Five Queens Problem - Show Plot Random Walk"
   >
   <br>
-  <em>Img. 23 - Five Queens Problem - Show Plot Random Walk</em>
+  <em>Img. 9.11. - Five Queens Problem - Show Plot Random Walk</em>
 </div>
 
 <div align="center">
@@ -607,10 +635,10 @@ end_of_list.
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img30.png"
     width="500"
     height="auto"
-    alt="Img. 24 - Five Queens Problem - Show Plot Greedy Descent"
+    alt="Img. 9.12. - Five Queens Problem - Show Plot Greedy Descent"
   >
   <br>
-  <em>Img. 24 - Five Queens Problem - Show Plot Greedy Descent</em>
+  <em>Img. 9.12. - Five Queens Problem - Show Plot Greedy Descent</em>
 </div>
 
 ## 📂 Lab 10 - Classical planning
@@ -641,10 +669,10 @@ end_of_list.
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img31.png"
     width="500"
     height="auto"
-    alt="Img. 25 - Administrative priviliges error that is supposed to arrive, after that run './build.py'"
+    alt="Img. 10.1. - Administrative priviliges error that is supposed to arrive, after that run './build.py'"
   >
   <br>
-  <em>Img. 25 - Administrative priviliges error that is supposed to arrive</em>
+  <em>Img. 10.1. - Administrative priviliges error that is supposed to arrive</em>
 </div>
 
 ## 📂 Lab 10.2. - Create domain.pddl and generate problem.pddl using GENERATOR
@@ -668,10 +696,10 @@ end_of_list.
     src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img32.png"
     width="500"
     height="auto"
-    alt="Img. 26 - Solution found"
+    alt="Img. 10.2. - Solution found"
   >
   <br>
-  <em>Img. 26 - Solution found</em>
+  <em>Img. 10.2. - Solution found</em>
 </div>
   
 
