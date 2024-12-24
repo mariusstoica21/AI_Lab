@@ -591,7 +591,7 @@ end_of_list.
 
 ## 📂 Lab 10 - Classical planning
 
-## 📂 Lab 9.1. - Install FastDownward
+## 📂 Lab 10.1. - Install FastDownward
 
 1. In folder 'Documents', create a new folder named 'FD'
 2. Go to "https://github.com/aibasel/downward" and click the green 'Code' button
@@ -611,21 +611,44 @@ end_of_list.
 - export soplex_DIR=/opt/soplex-7.1.0
 - cmake --install build --prefix $soplex_DIR
 - ./build.py
-10. In 'Documents/FD/downward-main' create folder 'Gripper'
-11. Go to 'https://fai.cs.uni-saarland.de/hoffmann/ff-domains.html' to the 'Gripper' section
-12. From the Gripper section, download 'domain.pddl'
-13. Paste the 'domain.pddl' file into 'Documents/FD/downward-main/Gripper' folder
-14. From the Gripper section, download 'GENERATOR.tar.gz' into 'Documents/FD/downward-main/Gripper' folder
-15. Right click the 'GENERATOR.tar.gz' and 'Extract Here'
-16. Go into the 'GENERATOR' folder
-17. Right click in the folder and click 'Open in Terminal'
-18. Run 'make'
-19. Run './gripper -n 8' (Create a problem with 8 balls)
-20. Copy content printed in terminal into 'problem.pddl' file created in the folder 'Documents/FD/downward-main/Gripper'
-21. Go to 'Documents/FD/downward-main' and run the command './fast-downward.py Gripper/domain.pddl Gripper/problem.pddl --search "astar(lmcut())'
-22. Check if 'Solution found'
 
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img31.png"
+    width="500"
+    height="auto"
+    alt="Img. 25 - Administrative priviliges error that is supposed to arrive, after that run './build.py'"
+  >
+  <br>
+  <em>Img. 25 - Administrative priviliges error that is supposed to arrive</em>
+</div>
 
+## 📂 Lab 10.2. - Create domain.pddl and generate problem.pddl using GENERATOR
+
+1. In 'Documents/FD/downward-main' create folder 'Gripper'
+2. Go to 'https://fai.cs.uni-saarland.de/hoffmann/ff-domains.html' to the 'Gripper' section
+3. From the Gripper section, download 'domain.pddl'
+4. Paste the 'domain.pddl' file into 'Documents/FD/downward-main/Gripper' folder
+5. From the Gripper section, download 'GENERATOR.tar.gz' into 'Documents/FD/downward-main/Gripper' folder
+6. Right click the 'GENERATOR.tar.gz' and 'Extract Here'
+7. Go into the 'GENERATOR' folder
+8. Right click in the folder and click 'Open in Terminal'
+9. Run 'make'
+10. Run './gripper -n 8' (Create a problem with 8 balls)
+11. Copy content printed in terminal into 'problem.pddl' file created in the folder 'Documents/FD/downward-main/Gripper'
+12. Go to 'Documents/FD/downward-main' and run the command './fast-downward.py Gripper/domain.pddl Gripper/problem.pddl --search "astar(lmcut())'
+13. Check if 'Solution found'
+
+<div align="center">
+  <img 
+    src="https://github.com/mariusstoica21/AI_Lab/blob/main/images/img32.png"
+    width="500"
+    height="auto"
+    alt="Img. 26 - Solution found"
+  >
+  <br>
+  <em>Img. 26 - Solution found</em>
+</div>
   
 
 
