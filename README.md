@@ -827,7 +827,7 @@ Command: ./mace4 -c -n 2 -m -1 -f lady3.in
 9. Run 'make'
 10. Run './gripper -n 8' (Create a problem with 8 balls)
 11. Copy content printed in terminal into 'problem.pddl' file created in the folder 'Documents/FD/downward-main/Gripper'
-12. Go to 'Documents/FD/downward-main' and run the command './fast-downward.py Gripper/domain.pddl Gripper/problem.pddl --search "astar(lmcut())'
+12. Go to 'Documents/FD/downward-main' and run the command './fast-downward.py Gripper/domain.pddl Gripper/problem.pddl --search "astar(lmcut())"'
 13. Check if 'Solution found'
 
 <div align="center">
